@@ -31,6 +31,10 @@ encoding pattern
 - Unicode: `\u003c`
 - CSS: `\3c` `\0003c`
 
+ ***Better use HTML entities
+ 
+ escaping only special chars can leave way to XSS your app by many ways like compilating JavaScript payloads or messing with encode types
+ 
 ### 2. If you needs tag?
 filtering xss tags and event handler, dangerous attribute
 - filtering xss tags(running with out eventhandler)
